@@ -1,0 +1,13 @@
+{"stage": "ft50", "epoch": 1, "train_loss": 2.1469103873217548, "sec": 77.0}
+{"stage": "ft50", "epoch": 2, "train_loss": 1.408315116741039, "sec": 84.2}
+{"stage": "ft50", "epoch": 3, "train_loss": 1.113908099774961, "sec": 82.8}
+{"stage": "ft50", "epoch": 4, "train_loss": 0.9647846518622505, "sec": 83.9}
+{"stage": "ft50", "epoch": 5, "train_loss": 0.8705574258168538, "sec": 83.7}
+{"stage": "ft50", "epoch": 6, "train_loss": 0.804117251502143, "sec": 83.1}
+{"stage": "ft50", "epoch": 7, "train_loss": 0.7651218608573631, "sec": 86.4}
+{"stage": "ft50", "epoch": 8, "train_loss": 0.7516689369413587, "sec": 83.9}
+{"stage": "ft50", "epoch": 9, "train_loss": 0.7417084208241216, "sec": 87.6}
+{"stage": "ft50", "epoch": 10, "train_loss": 0.7419596043339483, "sec": 83.1}
+plantvillage_test {"n": 1080, "accuracy": 0.8490740740740741, "macro_f1": 0.8353830125494702, "top3_accuracy": 0.9685185185185186, "macro_f1_ci95": [0.8122025880926697, 0.8543756988217419]}
+plantdoc_test {"n": 445, "accuracy": 0.5617977528089888, "macro_f1": 0.5318065454057661, "top3_accuracy": 0.8269662921348314, "macro_f1_ci95": [0.46415654468318135, 0.5715586459867632]}
+latency {'median': 20.441895499743623, 'p95': 21.963928400214172} params(M) 4.24

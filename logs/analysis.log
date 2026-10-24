@@ -1,0 +1,38 @@
+              run                         condition  ft_images  pv_macro_f1  pd_macro_f1  pd_ci_lo  pd_ci_hi  gap_pp  pd_accuracy  pd_top3  lat_med_ms  lat_p95_ms  delta_vs_baseline_pp
+     baseline_s42                Baseline (PV only)          0        0.991        0.213     0.164     0.249  77.725        0.252    0.492      16.364      21.730                 0.000
+     fieldaug_s42          Field-style augmentation          0        0.968        0.268     0.210     0.304  69.987        0.319    0.539      16.952      24.092                 5.442
+         ft10_s42                Fine-tune 10/class        270        0.888        0.421     0.360     0.460  46.763        0.443    0.699      25.261      29.212                20.716
+         ft25_s42                Fine-tune 25/class        675        0.836        0.467     0.404     0.509  36.871        0.470    0.775      18.753      25.658                25.359
+         ft50_s42                Fine-tune 50/class       1350        0.859        0.533     0.465     0.568  32.603        0.562    0.800      18.849      25.662                31.935
+fieldaug_ft50_s42 Augmentation + fine-tune 50/class       1350        0.835        0.532     0.464     0.572  30.358        0.562    0.827      20.442      21.964                31.837
+                        condition  threshold  coverage  accuracy_answered  errors_flagged_not_sure  correct_withheld
+               Baseline (PV only)        0.3     0.699              0.312                    0.357             0.134
+               Baseline (PV only)        0.4     0.548              0.328                    0.508             0.286
+               Baseline (PV only)        0.5     0.438              0.359                    0.625             0.375
+               Baseline (PV only)        0.6     0.353              0.408                    0.721             0.429
+               Baseline (PV only)        0.7     0.261              0.483                    0.820             0.500
+         Field-style augmentation        0.3     0.861              0.352                    0.182             0.049
+         Field-style augmentation        0.4     0.739              0.371                    0.317             0.141
+         Field-style augmentation        0.5     0.582              0.417                    0.502             0.239
+         Field-style augmentation        0.6     0.463              0.456                    0.630             0.338
+         Field-style augmentation        0.7     0.357              0.497                    0.736             0.444
+               Fine-tune 10/class        0.3     0.802              0.487                    0.262             0.117
+               Fine-tune 10/class        0.4     0.654              0.529                    0.448             0.218
+               Fine-tune 10/class        0.5     0.517              0.570                    0.601             0.335
+               Fine-tune 10/class        0.6     0.431              0.609                    0.698             0.406
+               Fine-tune 10/class        0.7     0.348              0.639                    0.774             0.497
+               Fine-tune 25/class        0.3     0.834              0.512                    0.233             0.091
+               Fine-tune 25/class        0.4     0.681              0.554                    0.428             0.196
+               Fine-tune 25/class        0.5     0.562              0.592                    0.568             0.292
+               Fine-tune 25/class        0.6     0.472              0.633                    0.674             0.364
+               Fine-tune 25/class        0.7     0.348              0.703                    0.805             0.478
+               Fine-tune 50/class        0.3     0.838              0.630                    0.292             0.060
+               Fine-tune 50/class        0.4     0.735              0.676                    0.456             0.116
+               Fine-tune 50/class        0.5     0.616              0.712                    0.595             0.220
+               Fine-tune 50/class        0.6     0.508              0.743                    0.703             0.328
+               Fine-tune 50/class        0.7     0.409              0.786                    0.800             0.428
+Augmentation + fine-tune 50/class        0.3     0.890              0.593                    0.174             0.060
+Augmentation + fine-tune 50/class        0.4     0.751              0.635                    0.374             0.152
+Augmentation + fine-tune 50/class        0.5     0.589              0.676                    0.564             0.292
+Augmentation + fine-tune 50/class        0.6     0.476              0.736                    0.713             0.376
+Augmentation + fine-tune 50/class        0.7     0.384              0.772                    0.800             0.472

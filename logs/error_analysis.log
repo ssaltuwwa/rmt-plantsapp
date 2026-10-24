@@ -1,0 +1,23 @@
+test crops from "isolated on white" stock photos: 51 of 445 ; images: 20 of 236
+
+baseline_s42: errors 333 of 445
+Tomato leaf mosaic virus -> Tomato leaf yellow virus     25
+Tomato leaf -> Tomato leaf yellow virus                  19
+Potato leaf early blight -> Tomato leaf late blight       9
+Blueberry leaf -> Tomato leaf yellow virus                9
+Tomato Septoria leaf spot -> Tomato leaf yellow virus     9
+Strawberry leaf -> Tomato leaf yellow virus               9
+most frequent predicted classes: {'Tomato leaf yellow virus': 157, 'Tomato leaf late blight': 70, 'Bell_pepper leaf spot': 23}
+accuracy on stock "isolated" crops: 0.137 | other crops: 0.266
+
+ft50_s42: errors 195 of 445
+Corn leaf blight -> Corn Gray leaf spot                  7
+Tomato leaf yellow virus -> Tomato leaf mosaic virus     7
+Tomato leaf mosaic virus -> Tomato leaf                  6
+Tomato leaf -> Bell_pepper leaf                          6
+Cherry leaf -> Apple leaf                                6
+Tomato Septoria leaf spot -> Tomato Early blight leaf    6
+most frequent predicted classes: {'Strawberry leaf': 35, 'Tomato leaf yellow virus': 32, 'Raspberry leaf': 26}
+accuracy on stock "isolated" crops: 0.627 | other crops: 0.553
+
+classes with F1 = 0: baseline 8 | ft50 0

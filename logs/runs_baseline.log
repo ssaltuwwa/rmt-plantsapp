@@ -1,0 +1,7 @@
+{"stage": "pv_train", "epoch": 1, "train_loss": 1.9455703709806715, "sec": 143.6, "val_macro_f1": 0.9263565642419961}
+{"stage": "pv_train", "epoch": 2, "train_loss": 0.8853384391182945, "sec": 151.5, "val_macro_f1": 0.8982554378752027}
+{"stage": "pv_train", "epoch": 3, "train_loss": 0.7430507682618641, "sec": 151.7, "val_macro_f1": 0.9740449030992463}
+{"stage": "pv_train", "epoch": 4, "train_loss": 0.6771416664123535, "sec": 150.9, "val_macro_f1": 0.9833703935329952}
+plantvillage_test {"n": 1080, "accuracy": 0.9907407407407407, "macro_f1": 0.9906854909378722, "top3_accuracy": 1.0, "macro_f1_ci95": [0.984755841349133, 0.9957614714360039]}
+plantdoc_test {"n": 445, "accuracy": 0.251685393258427, "macro_f1": 0.2134334696221656, "top3_accuracy": 0.49213483146067416, "macro_f1_ci95": [0.16416144284834325, 0.24904196718868263]}
+latency {'median': 16.36350849992141, 'p95': 21.729690899928755} params(M) 4.24

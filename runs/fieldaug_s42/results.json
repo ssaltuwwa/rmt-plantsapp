@@ -1,0 +1,73 @@
+{
+  "config": {
+    "condition": "fieldaug",
+    "data": "../data_out",
+    "out": "../runs/fieldaug_s42",
+    "init": null,
+    "epochs": 4,
+    "bs": 32,
+    "lr": 0.001,
+    "size": 224,
+    "seed": 42,
+    "threads": 2,
+    "torch": "2.14.1+cu130",
+    "torchvision": "0.29.1+cu130",
+    "python": "3.13.16",
+    "cpu_threads": 2
+  },
+  "train_log": [
+    {
+      "stage": "pv_train",
+      "epoch": 1,
+      "train_loss": 2.4285646038396016,
+      "sec": 157.2,
+      "val_macro_f1": 0.7755656495297624
+    },
+    {
+      "stage": "pv_train",
+      "epoch": 2,
+      "train_loss": 1.278681104381879,
+      "sec": 166.3,
+      "val_macro_f1": 0.8708093427125838
+    },
+    {
+      "stage": "pv_train",
+      "epoch": 3,
+      "train_loss": 0.9709034774984632,
+      "sec": 157.5,
+      "val_macro_f1": 0.9545088931574133
+    },
+    {
+      "stage": "pv_train",
+      "epoch": 4,
+      "train_loss": 0.8438852294569924,
+      "sec": 158.0,
+      "val_macro_f1": 0.9649486094501072
+    }
+  ],
+  "plantvillage_test": {
+    "n": 1080,
+    "accuracy": 0.9675925925925926,
+    "macro_f1": 0.9677263274808794,
+    "top3_accuracy": 0.9990740740740741,
+    "macro_f1_ci95": [
+      0.9564520801635924,
+      0.9767698418834226
+    ]
+  },
+  "plantdoc_test": {
+    "n": 445,
+    "accuracy": 0.31910112359550563,
+    "macro_f1": 0.2678552043249326,
+    "top3_accuracy": 0.5393258426966292,
+    "macro_f1_ci95": [
+      0.20957081171111133,
+      0.30418459090832267
+    ]
+  },
+  "cpu_latency_ms": {
+    "median": 16.952189999983602,
+    "p95": 24.091754949859023
+  },
+  "params_millions": 4.236619
+}

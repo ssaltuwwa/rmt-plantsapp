@@ -1,0 +1,5 @@
+test crops: 445, pool crops: 8244
+source images present in both TRAIN and TEST: 16
+test crops with a near-duplicate in pool (pHash dist <= 4): 20 (4.5%) from 13 test images
+TRAIN images that are near-duplicates of a TEST image (whole-image pHash <= 4): 15
+pool source images excluded from fine-tuning (union with crop-level matches): 19; crops removed from pool: 50

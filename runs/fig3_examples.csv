@@ -1,0 +1,7 @@
+path,label,pred_b,conf_b,pred_f,conf_f
+/home/claude/a3/data_out/pd_crops/test/3/stock-photo-two-sides-of-blueberry-leaf-isolated-on-white-15_124.jpg,3,12,0.1702704,3,0.60252005
+/home/claude/a3/data_out/pd_crops/test/16/stock-photo-soy-leaf-isolated-on-white-background-120961801_67.jpg,16,15,0.29892194,16,0.7940519
+/home/claude/a3/data_out/pd_crops/test/16/Soybean%20edamame%20leaf1.JPG_168.jpg,16,5,0.1738524,16,0.5790519
+/home/claude/a3/data_out/pd_crops/test/18/strawberry-leaves-isolated-white-17473157_149.jpg,18,18,0.8744226,18,0.9444997
+/home/claude/a3/data_out/pd_crops/test/13/potato-early-blight-alternaria-alternata-lesion-on-a-potato-_299.jpg,13,6,0.3930909,23,0.33313245
+/home/claude/a3/data_out/pd_crops/test/25/ill-tomato-of-tomato-mosaic-virus-DBE17N_292.jpg,25,24,0.90162826,11,0.52239007

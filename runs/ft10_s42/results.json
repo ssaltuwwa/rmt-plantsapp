@@ -1,0 +1,107 @@
+{
+  "config": {
+    "condition": "ft10",
+    "data": "../data_out",
+    "out": "../runs/ft10_s42",
+    "init": "../runs/baseline_s42/model.pt",
+    "epochs": 10,
+    "bs": 32,
+    "lr": 0.0003,
+    "size": 224,
+    "seed": 42,
+    "threads": 2,
+    "torch": "2.14.1+cu130",
+    "torchvision": "0.29.1+cu130",
+    "python": "3.13.16",
+    "cpu_threads": 2,
+    "ft_images": 270,
+    "ft_excluded_pool_images": 19
+  },
+  "train_log": [
+    {
+      "stage": "ft10",
+      "epoch": 1,
+      "train_loss": 2.605302607571637,
+      "sec": 17.7
+    },
+    {
+      "stage": "ft10",
+      "epoch": 2,
+      "train_loss": 1.5139331897099813,
+      "sec": 19.5
+    },
+    {
+      "stage": "ft10",
+      "epoch": 3,
+      "train_loss": 1.0790087540944417,
+      "sec": 20.3
+    },
+    {
+      "stage": "ft10",
+      "epoch": 4,
+      "train_loss": 0.8851060390472412,
+      "sec": 18.8
+    },
+    {
+      "stage": "ft10",
+      "epoch": 5,
+      "train_loss": 0.8149621473418341,
+      "sec": 20.2
+    },
+    {
+      "stage": "ft10",
+      "epoch": 6,
+      "train_loss": 0.7658599394339102,
+      "sec": 20.3
+    },
+    {
+      "stage": "ft10",
+      "epoch": 7,
+      "train_loss": 0.7576334494131582,
+      "sec": 19.5
+    },
+    {
+      "stage": "ft10",
+      "epoch": 8,
+      "train_loss": 0.7426231640356559,
+      "sec": 20.7
+    },
+    {
+      "stage": "ft10",
+      "epoch": 9,
+      "train_loss": 0.7315937881116514,
+      "sec": 19.9
+    },
+    {
+      "stage": "ft10",
+      "epoch": 10,
+      "train_loss": 0.7200980738357261,
+      "sec": 20.1
+    }
+  ],
+  "plantvillage_test": {
+    "n": 1080,
+    "accuracy": 0.8916666666666667,
+    "macro_f1": 0.8882240784149987,
+    "top3_accuracy": 0.9722222222222222,
+    "macro_f1_ci95": [
+      0.8686148559230973,
+      0.904367622775911
+    ]
+  },
+  "plantdoc_test": {
+    "n": 445,
+    "accuracy": 0.44269662921348313,
+    "macro_f1": 0.4205966996590811,
+    "top3_accuracy": 0.698876404494382,
+    "macro_f1_ci95": [
+      0.36039825599574526,
+      0.45985288306404454
+    ]
+  },
+  "cpu_latency_ms": {
+    "median": 25.26105449987881,
+    "p95": 29.211556149971322
+  },
+  "params_millions": 4.236619
+}
